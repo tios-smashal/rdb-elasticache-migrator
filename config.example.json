@@ -1,0 +1,14 @@
+{
+  "source": {
+    "rdb_file": "/path/to/your/dump.rdb"
+  },
+  "target": {
+    "host": "saif-serverlesss-eyty4q.serverless.use1.cache.amazonaws.com",
+    "port": 6379,
+    "password": "YOUR_ELASTICACHE_AUTH_TOKEN",
+    "tls": true,
+    "cluster": true
+  },
+  "dry_run": false,
+  "prefix_dbs": true
+}
