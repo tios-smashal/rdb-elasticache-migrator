@@ -1,0 +1,172 @@
+rdb-elasticache-migrator/                      [30MB total - Self-contained!]
+│
+├── migrate.sh                                  [MAIN SCRIPT - USE THIS!]
+│   └─> Auto-builds RedisShake
+│   └─> Auto-generates config
+│   └─> Handles database prefixing
+│   └─> Logs everything
+│
+├── QUICKSTART.md                               [1-page guide]
+├── README_SIMPLE.md                            [Simple docs]
+├── README.md                                   [Full docs]
+├── README.txt                                  [Text summary]
+├── USAGE_EXAMPLES.md                           [Detailed examples]
+├── PROJECT_STRUCTURE.txt                       [This file]
+│
+├── redisshake/                                 [Complete RedisShake source]
+│   ├── build.sh                                [Builds redis-shake binary]
+│   ├── cmd/redis-shake/main.go                [Entry point]
+│   ├── internal/
+│   │   ├── rdb/rdb.go                          [RDB parser (Go)]
+│   │   ├── reader/rdb_reader.go                [RDB reader]
+│   │   └── writer/redis_cluster_writer.go      [Cluster writer]
+│   ├── bin/                                    [Build output]
+│   │   └── redis-shake                         [Compiled binary]
+│   └── go.mod, go.sum                          [Go dependencies]
+│
+├── configs/                                    [Auto-generated configs]
+│   └── migration_YYYYMMDD_HHMMSS.toml          [Timestamped configs]
+│
+├── logs/                                       [Migration logs]
+│   └── migration_YYYYMMDD_HHMMSS.log           [Timestamped logs]
+│
+├── data/                                       [Working directory]
+│   └── [RedisShake runtime data]
+│
+├── migrate.py                                  [Python alternative]
+├── setup.sh                                    [Python setup script]
+├── config.example.json                         [Python config template]
+├── requirements.txt                            [Python dependencies]
+│
+└── .gitignore                                  [Protects secrets]
+
+
+WORKFLOW:
+═════════
+
+    You                          migrate.sh                    RedisShake
+     │                               │                             │
+     ├─ Run: ./migrate.sh ──────────>│                             │
+     │      /path/to/dump.rdb        │                             │
+     │      endpoint                 │                             │
+     │      password                 │                             │
+     │                               │                             │
+     │                               ├─ Check RDB file exists      │
+     │                               ├─ Build RedisShake (if needed)
+     │                               ├─ Generate config.toml       │
+     │                               │   • [rdb_reader]            │
+     │                               │   • [redis_writer]          │
+     │                               │   • [filter] with Lua       │
+     │                               │                             │
+     │                               ├─ Execute ──────────────────>│
+     │                               │                             │
+     │                               │                 Parse RDB ──┤
+     │                               │                             │
+     │                               │          For each key:      │
+     │                               │            • Get DB number  │
+     │                               │            • Get key name   │
+     │                               │            • Get value      │
+     │                               │            • Get TTL        │
+     │                               │                             │
+     │                               │          Run Lua function:  │
+     │                               │            IF DB != 0       │
+     │                               │              prefix = "db#:"│
+     │                               │              key = prefix+key
+     │                               │            WRITE to EC db0  │
+     │                               │                             │
+     │                               │                   Done ─────┤
+     │                               │                             │
+     │<──── Show results ────────────┤                             │
+     │      • Keys migrated          │                             │
+     │      • Log file location      │                             │
+     │      • Config file location   │                             │
+
+
+DATABASE TRANSFORMATION:
+════════════════════════
+
+Source RDB:                         Target ElastiCache:
+                                    
+┌────────────────────┐              ┌─────────────────────────┐
+│ Database 0         │              │ Database 0              │
+│  user:123          │──────────────>│  user:123              │
+│  product:456       │──────────────>│  product:456           │
+└────────────────────┘              │                         │
+                                    │  db1:cache:abc   ◄──────┼─┐
+┌────────────────────┐              │  db1:session:xyz ◄──────┼─┤
+│ Database 1         │              │                         │ │
+│  cache:abc         │──────────────┼─────────────────────────┘ │
+│  session:xyz       │──────────────┼───────────────────────────┘
+└────────────────────┘              │                         │
+                                    │  db2:temp:foo    ◄──────┼─┐
+┌────────────────────┐              └─────────────────────────┘ │
+│ Database 2         │                                          │
+│  temp:foo          │──────────────────────────────────────────┘
+└────────────────────┘
+
+Result: ALL data in Database 0, NO collisions!
+
+
+HOW RDB READING WORKS:
+═══════════════════════
+
+dump.rdb (binary file)
+    │
+    │  REDIS0009                    ← Magic + version
+    │  <metadata>                   ← Redis version, aux fields
+    │  SELECTDB 0                   ← Switch to database 0
+    │    STRING user:123 = "John"   ← Key-value pairs
+    │    HASH product:456 ...       
+    │  SELECTDB 1                   ← Switch to database 1
+    │    STRING cache:abc = "xyz"
+    │  SELECTDB 2                   ← Switch to database 2  
+    │    SET temp:foo ...
+    │  EOF                          ← End of file
+    │
+    ▼
+RedisShake RDB Parser (Go)
+  • Reads binary format
+  • Detects SELECTDB opcodes
+  • Parses each data type
+  • Extracts key, value, TTL
+    │
+    ▼
+Lua Filter Function
+  • Adds "db#:" prefix if DB != 0
+  • Leaves db0 unchanged
+    │
+    ▼
+ElastiCache Serverless
+  • Everything written to db0
+  • TLS encrypted
+  • Cluster mode
+
+
+REQUIREMENTS:
+═════════════
+
+✓ Bash shell (any Unix/Linux/Mac)
+✓ Go compiler (only for first build)
+✓ Your RDB file
+✓ ElastiCache endpoint and password
+
+✗ NO Redis installation needed
+✗ NO Python needed (unless using migrate.py)
+✗ NO external dependencies
+
+
+PORTABILITY:
+════════════
+
+This entire directory is portable!
+
+From Mac:
+  tar -czf migrator.tar.gz rdb-elasticache-migrator/
+  scp migrator.tar.gz user@linux-server:~/
+
+On Linux server:
+  tar -xzf migrator.tar.gz
+  cd rdb-elasticache-migrator
+  ./migrate.sh /var/lib/redis/dump.rdb endpoint password
+
+Works everywhere!

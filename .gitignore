@@ -1,31 +1,30 @@
-# Python
-__pycache__/
-*.py[cod]
-*$py.class
-*.so
-.Python
-venv/
-env/
-ENV/
-.venv
-
-# Config files with secrets
-config.json
+# Migration artifacts
+configs/*.toml
+logs/*.log
+data/
 
 # RDB files
 *.rdb
 
-# Logs
-*.log
-migration.log
+# RedisShake build artifacts
+redisshake/bin/
+redisshake/data/
+
+# Python (if using Python tool)
+__pycache__/
+*.py[cod]
+venv/
+env/
+
+# Config with secrets
+config.json
+
+# OS
+.DS_Store
+Thumbs.db
+*~
 
 # IDE
 .vscode/
 .idea/
 *.swp
-*.swo
-*~
-
-# OS
-.DS_Store
-Thumbs.db
