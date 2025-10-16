@@ -1,0 +1,3659 @@
+{
+    "table": {
+        "server": {
+            "ACL-CAT": [],
+            "ACL-DELUSER": [],
+            "ACL-DRYRUN": [],
+            "ACL-GENPASS": [],
+            "ACL-GETUSER": [],
+            "ACL-HELP": [],
+            "ACL-LIST": [],
+            "ACL-LOAD": [],
+            "ACL-LOG": [],
+            "ACL-SAVE": [],
+            "ACL-SETUSER": [],
+            "ACL-USERS": [],
+            "ACL-WHOAMI": [],
+            "ACL": [],
+            "BGREWRITEAOF": [],
+            "BGSAVE": [],
+            "COMMAND-COUNT": [],
+            "COMMAND-DOCS": [],
+            "COMMAND-GETKEYS": [],
+            "COMMAND-GETKEYSANDFLAGS": [],
+            "COMMAND-HELP": [],
+            "COMMAND-INFO": [],
+            "COMMAND-LIST": [],
+            "COMMAND": [],
+            "CONFIG-GET": [],
+            "CONFIG-HELP": [],
+            "CONFIG-RESETSTAT": [],
+            "CONFIG-REWRITE": [],
+            "CONFIG-SET": [],
+            "CONFIG": [],
+            "DBSIZE": [],
+            "DEBUG": [],
+            "FAILOVER": [],
+            "FLUSHALL": [],
+            "FLUSHDB": [],
+            "INFO": [],
+            "LASTSAVE": [],
+            "LATENCY-DOCTOR": [],
+            "LATENCY-GRAPH": [],
+            "LATENCY-HELP": [],
+            "LATENCY-HISTOGRAM": [],
+            "LATENCY-HISTORY": [],
+            "LATENCY-LATEST": [],
+            "LATENCY-RESET": [],
+            "LATENCY": [],
+            "LOLWUT": [],
+            "MEMORY-DOCTOR": [],
+            "MEMORY-HELP": [],
+            "MEMORY-MALLOC-STATS": [],
+            "MEMORY-PURGE": [],
+            "MEMORY-STATS": [],
+            "MEMORY-USAGE": [
+                {
+                    "begin_search": {
+                        "index": {
+                            "pos": 2
+                        }
+                    },
+                    "find_keys": {
+                        "range": {
+                            "lastkey": 0,
+                            "step": 1,
+                            "limit": 0
+                        }
+                    }
+                }
+            ],
+            "MEMORY": [],
+            "MODULE-HELP": [],
+            "MODULE-LIST": [],
+            "MODULE-LOAD": [],
+            "MODULE-LOADEX": [],
+            "MODULE-UNLOAD": [],
+            "MODULE": [],
+            "MONITOR": [],
+            "PSYNC": [],
+            "REPLCONF": [],
+            "REPLICAOF": [],
+            "RESTORE-ASKING": [
+                {
+                    "begin_search": {
+                        "index": {
+                            "pos": 1
+                        }
+                    },
+                    "find_keys": {
+                        "range": {
+                            "lastkey": 0,
+                            "step": 1,
+                            "limit": 0
+                        }
+                    }
+                }
+            ],
+            "ROLE": [],
+            "SAVE": [],
+            "SHUTDOWN": [],
+            "SLAVEOF": [],
+            "SLOWLOG-GET": [],
+            "SLOWLOG-HELP": [],
+            "SLOWLOG-LEN": [],
+            "SLOWLOG-RESET": [],
+            "SLOWLOG": [],
+            "SWAPDB": [],
+            "SYNC": [],
+            "TIME": []
+        },
+        "string": {
+            "APPEND": [
+                {
+                    "begin_search": {
+                        "index": {
+                            "pos": 1
+                        }
+                    },
+                    "find_keys": {
+                        "range": {
+                            "lastkey": 0,
+                            "step": 1,
+                            "limit": 0
+                        }
+                    }
+                }
+            ],
+            "DECR": [
+                {
+                    "begin_search": {
+                        "index": {
+                            "pos": 1
+                        }
+                    },
+                    "find_keys": {
+                        "range": {
+                            "lastkey": 0,
+                            "step": 1,
+                            "limit": 0
+                        }
+                    }
+                }
+            ],
+            "DECRBY": [
+                {
+                    "begin_search": {
+                        "index": {
+                            "pos": 1
+                        }
+                    },
+                    "find_keys": {
+                        "range": {
+                            "lastkey": 0,
+                            "step": 1,
+                            "limit": 0
+                        }
+                    }
+                }
+            ],
+            "GET": [
+                {
+                    "begin_search": {
+                        "index": {
+                            "pos": 1
+                        }
+                    },
+                    "find_keys": {
+                        "range": {
+                            "lastkey": 0,
+                            "step": 1,
+                            "limit": 0
+                        }
+                    }
+                }
+            ],
+            "GETDEL": [
+                {
+                    "begin_search": {
+                        "index": {
+                            "pos": 1
+                        }
+                    },
+                    "find_keys": {
+                        "range": {
+                            "lastkey": 0,
+                            "step": 1,
+                            "limit": 0
+                        }
+                    }
+                }
+            ],
+            "GETEX": [
+                {
+                    "begin_search": {
+                        "index": {
+                            "pos": 1
+                        }
+                    },
+                    "find_keys": {
+                        "range": {
+                            "lastkey": 0,
+                            "step": 1,
+                            "limit": 0
+                        }
+                    }
+                }
+            ],
+            "GETRANGE": [
+                {
+                    "begin_search": {
+                        "index": {
+                            "pos": 1
+                        }
+                    },
+                    "find_keys": {
+                        "range": {
+                            "lastkey": 0,
+                            "step": 1,
+                            "limit": 0
+                        }
+                    }
+                }
+            ],
+            "GETSET": [
+                {
+                    "begin_search": {
+                        "index": {
+                            "pos": 1
+                        }
+                    },
+                    "find_keys": {
+                        "range": {
+                            "lastkey": 0,
+                            "step": 1,
+                            "limit": 0
+                        }
+                    }
+                }
+            ],
+            "INCR": [
+                {
+                    "begin_search": {
+                        "index": {
+                            "pos": 1
+                        }
+                    },
+                    "find_keys": {
+                        "range": {
+                            "lastkey": 0,
+                            "step": 1,
+                            "limit": 0
+                        }
+                    }
+                }
+            ],
+            "INCRBY": [
+                {
+                    "begin_search": {
+                        "index": {
+                            "pos": 1
+                        }
+                    },
+                    "find_keys": {
+                        "range": {
+                            "lastkey": 0,
+                            "step": 1,
+                            "limit": 0
+                        }
+                    }
+                }
+            ],
+            "INCRBYFLOAT": [
+                {
+                    "begin_search": {
+                        "index": {
+                            "pos": 1
+                        }
+                    },
+                    "find_keys": {
+                        "range": {
+                            "lastkey": 0,
+                            "step": 1,
+                            "limit": 0
+                        }
+                    }
+                }
+            ],
+            "LCS": [
+                {
+                    "begin_search": {
+                        "index": {
+                            "pos": 1
+                        }
+                    },
+                    "find_keys": {
+                        "range": {
+                            "lastkey": 1,
+                            "step": 1,
+                            "limit": 0
+                        }
+                    }
+                }
+            ],
+            "MGET": [
+                {
+                    "begin_search": {
+                        "index": {
+                            "pos": 1
+                        }
+                    },
+                    "find_keys": {
+                        "range": {
+                            "lastkey": -1,
+                            "step": 1,
+                            "limit": 0
+                        }
+                    }
+                }
+            ],
+            "MSET": [
+                {
+                    "begin_search": {
+                        "index": {
+                            "pos": 1
+                        }
+                    },
+                    "find_keys": {
+                        "range": {
+                            "lastkey": -1,
+                            "step": 2,
+                            "limit": 0
+                        }
+                    }
+                }
+            ],
+            "MSETNX": [
+                {
+                    "begin_search": {
+                        "index": {
+                            "pos": 1
+                        }
+                    },
+                    "find_keys": {
+                        "range": {
+                            "lastkey": -1,
+                            "step": 2,
+                            "limit": 0
+                        }
+                    }
+                }
+            ],
+            "PSETEX": [
+                {
+                    "begin_search": {
+                        "index": {
+                            "pos": 1
+                        }
+                    },
+                    "find_keys": {
+                        "range": {
+                            "lastkey": 0,
+                            "step": 1,
+                            "limit": 0
+                        }
+                    }
+                }
+            ],
+            "SET": [
+                {
+                    "begin_search": {
+                        "index": {
+                            "pos": 1
+                        }
+                    },
+                    "find_keys": {
+                        "range": {
+                            "lastkey": 0,
+                            "step": 1,
+                            "limit": 0
+                        }
+                    }
+                }
+            ],
+            "SETEX": [
+                {
+                    "begin_search": {
+                        "index": {
+                            "pos": 1
+                        }
+                    },
+                    "find_keys": {
+                        "range": {
+                            "lastkey": 0,
+                            "step": 1,
+                            "limit": 0
+                        }
+                    }
+                }
+            ],
+            "SETNX": [
+                {
+                    "begin_search": {
+                        "index": {
+                            "pos": 1
+                        }
+                    },
+                    "find_keys": {
+                        "range": {
+                            "lastkey": 0,
+                            "step": 1,
+                            "limit": 0
+                        }
+                    }
+                }
+            ],
+            "SETRANGE": [
+                {
+                    "begin_search": {
+                        "index": {
+                            "pos": 1
+                        }
+                    },
+                    "find_keys": {
+                        "range": {
+                            "lastkey": 0,
+                            "step": 1,
+                            "limit": 0
+                        }
+                    }
+                }
+            ],
+            "STRLEN": [
+                {
+                    "begin_search": {
+                        "index": {
+                            "pos": 1
+                        }
+                    },
+                    "find_keys": {
+                        "range": {
+                            "lastkey": 0,
+                            "step": 1,
+                            "limit": 0
+                        }
+                    }
+                }
+            ],
+            "SUBSTR": [
+                {
+                    "begin_search": {
+                        "index": {
+                            "pos": 1
+                        }
+                    },
+                    "find_keys": {
+                        "range": {
+                            "lastkey": 0,
+                            "step": 1,
+                            "limit": 0
+                        }
+                    }
+                }
+            ]
+        },
+        "cluster": {
+            "ASKING": [],
+            "CLUSTER-ADDSLOTS": [],
+            "CLUSTER-ADDSLOTSRANGE": [],
+            "CLUSTER-BUMPEPOCH": [],
+            "CLUSTER-COUNT-FAILURE-REPORTS": [],
+            "CLUSTER-COUNTKEYSINSLOT": [],
+            "CLUSTER-DELSLOTS": [],
+            "CLUSTER-DELSLOTSRANGE": [],
+            "CLUSTER-FAILOVER": [],
+            "CLUSTER-FLUSHSLOTS": [],
+            "CLUSTER-FORGET": [],
+            "CLUSTER-GETKEYSINSLOT": [],
+            "CLUSTER-HELP": [],
+            "CLUSTER-INFO": [],
+            "CLUSTER-KEYSLOT": [],
+            "CLUSTER-LINKS": [],
+            "CLUSTER-MEET": [],
+            "CLUSTER-MYID": [],
+            "CLUSTER-NODES": [],
+            "CLUSTER-REPLICAS": [],
+            "CLUSTER-REPLICATE": [],
+            "CLUSTER-RESET": [],
+            "CLUSTER-SAVECONFIG": [],
+            "CLUSTER-SET-CONFIG-EPOCH": [],
+            "CLUSTER-SETSLOT": [],
+            "CLUSTER-SHARDS": [],
+            "CLUSTER-SLAVES": [],
+            "CLUSTER-SLOTS": [],
+            "CLUSTER": [],
+            "READONLY": [],
+            "READWRITE": []
+        },
+        "connection": {
+            "AUTH": [],
+            "CLIENT-CACHING": [],
+            "CLIENT-GETNAME": [],
+            "CLIENT-GETREDIR": [],
+            "CLIENT-HELP": [],
+            "CLIENT-ID": [],
+            "CLIENT-INFO": [],
+            "CLIENT-KILL": [],
+            "CLIENT-LIST": [],
+            "CLIENT-NO-EVICT": [],
+            "CLIENT-PAUSE": [],
+            "CLIENT-REPLY": [],
+            "CLIENT-SETNAME": [],
+            "CLIENT-TRACKING": [],
+            "CLIENT-TRACKINGINFO": [],
+            "CLIENT-UNBLOCK": [],
+            "CLIENT-UNPAUSE": [],
+            "CLIENT": [],
+            "ECHO": [],
+            "HELLO": [],
+            "PING": [],
+            "QUIT": [],
+            "RESET": [],
+            "SELECT": []
+        },
+        "bitmap": {
+            "BITCOUNT": [
+                {
+                    "begin_search": {
+                        "index": {
+                            "pos": 1
+                        }
+                    },
+                    "find_keys": {
+                        "range": {
+                            "lastkey": 0,
+                            "step": 1,
+                            "limit": 0
+                        }
+                    }
+                }
+            ],
+            "BITFIELD": [
+                {
+                    "begin_search": {
+                        "index": {
+                            "pos": 1
+                        }
+                    },
+                    "find_keys": {
+                        "range": {
+                            "lastkey": 0,
+                            "step": 1,
+                            "limit": 0
+                        }
+                    }
+                }
+            ],
+            "BITFIELD_RO": [
+                {
+                    "begin_search": {
+                        "index": {
+                            "pos": 1
+                        }
+                    },
+                    "find_keys": {
+                        "range": {
+                            "lastkey": 0,
+                            "step": 1,
+                            "limit": 0
+                        }
+                    }
+                }
+            ],
+            "BITOP": [
+                {
+                    "begin_search": {
+                        "index": {
+                            "pos": 2
+                        }
+                    },
+                    "find_keys": {
+                        "range": {
+                            "lastkey": 0,
+                            "step": 1,
+                            "limit": 0
+                        }
+                    }
+                },
+                {
+                    "begin_search": {
+                        "index": {
+                            "pos": 3
+                        }
+                    },
+                    "find_keys": {
+                        "range": {
+                            "lastkey": -1,
+                            "step": 1,
+                            "limit": 0
+                        }
+                    }
+                }
+            ],
+            "BITPOS": [
+                {
+                    "begin_search": {
+                        "index": {
+                            "pos": 1
+                        }
+                    },
+                    "find_keys": {
+                        "range": {
+                            "lastkey": 0,
+                            "step": 1,
+                            "limit": 0
+                        }
+                    }
+                }
+            ],
+            "GETBIT": [
+                {
+                    "begin_search": {
+                        "index": {
+                            "pos": 1
+                        }
+                    },
+                    "find_keys": {
+                        "range": {
+                            "lastkey": 0,
+                            "step": 1,
+                            "limit": 0
+                        }
+                    }
+                }
+            ],
+            "SETBIT": [
+                {
+                    "begin_search": {
+                        "index": {
+                            "pos": 1
+                        }
+                    },
+                    "find_keys": {
+                        "range": {
+                            "lastkey": 0,
+                            "step": 1,
+                            "limit": 0
+                        }
+                    }
+                }
+            ]
+        },
+        "list": {
+            "BLMOVE": [
+                {
+                    "begin_search": {
+                        "index": {
+                            "pos": 1
+                        }
+                    },
+                    "find_keys": {
+                        "range": {
+                            "lastkey": 0,
+                            "step": 1,
+                            "limit": 0
+                        }
+                    }
+                },
+                {
+                    "begin_search": {
+                        "index": {
+                            "pos": 2
+                        }
+                    },
+                    "find_keys": {
+                        "range": {
+                            "lastkey": 0,
+                            "step": 1,
+                            "limit": 0
+                        }
+                    }
+                }
+            ],
+            "BLMPOP": [
+                {
+                    "begin_search": {
+                        "index": {
+                            "pos": 2
+                        }
+                    },
+                    "find_keys": {
+                        "keynum": {
+                            "keynumidx": 0,
+                            "firstkey": 1,
+                            "step": 1
+                        }
+                    }
+                }
+            ],
+            "BLPOP": [
+                {
+                    "begin_search": {
+                        "index": {
+                            "pos": 1
+                        }
+                    },
+                    "find_keys": {
+                        "range": {
+                            "lastkey": -2,
+                            "step": 1,
+                            "limit": 0
+                        }
+                    }
+                }
+            ],
+            "BRPOP": [
+                {
+                    "begin_search": {
+                        "index": {
+                            "pos": 1
+                        }
+                    },
+                    "find_keys": {
+                        "range": {
+                            "lastkey": -2,
+                            "step": 1,
+                            "limit": 0
+                        }
+                    }
+                }
+            ],
+            "BRPOPLPUSH": [
+                {
+                    "begin_search": {
+                        "index": {
+                            "pos": 1
+                        }
+                    },
+                    "find_keys": {
+                        "range": {
+                            "lastkey": 0,
+                            "step": 1,
+                            "limit": 0
+                        }
+                    }
+                },
+                {
+                    "begin_search": {
+                        "index": {
+                            "pos": 2
+                        }
+                    },
+                    "find_keys": {
+                        "range": {
+                            "lastkey": 0,
+                            "step": 1,
+                            "limit": 0
+                        }
+                    }
+                }
+            ],
+            "LINDEX": [
+                {
+                    "begin_search": {
+                        "index": {
+                            "pos": 1
+                        }
+                    },
+                    "find_keys": {
+                        "range": {
+                            "lastkey": 0,
+                            "step": 1,
+                            "limit": 0
+                        }
+                    }
+                }
+            ],
+            "LINSERT": [
+                {
+                    "begin_search": {
+                        "index": {
+                            "pos": 1
+                        }
+                    },
+                    "find_keys": {
+                        "range": {
+                            "lastkey": 0,
+                            "step": 1,
+                            "limit": 0
+                        }
+                    }
+                }
+            ],
+            "LLEN": [
+                {
+                    "begin_search": {
+                        "index": {
+                            "pos": 1
+                        }
+                    },
+                    "find_keys": {
+                        "range": {
+                            "lastkey": 0,
+                            "step": 1,
+                            "limit": 0
+                        }
+                    }
+                }
+            ],
+            "LMOVE": [
+                {
+                    "begin_search": {
+                        "index": {
+                            "pos": 1
+                        }
+                    },
+                    "find_keys": {
+                        "range": {
+                            "lastkey": 0,
+                            "step": 1,
+                            "limit": 0
+                        }
+                    }
+                },
+                {
+                    "begin_search": {
+                        "index": {
+                            "pos": 2
+                        }
+                    },
+                    "find_keys": {
+                        "range": {
+                            "lastkey": 0,
+                            "step": 1,
+                            "limit": 0
+                        }
+                    }
+                }
+            ],
+            "LMPOP": [
+                {
+                    "begin_search": {
+                        "index": {
+                            "pos": 1
+                        }
+                    },
+                    "find_keys": {
+                        "keynum": {
+                            "keynumidx": 0,
+                            "firstkey": 1,
+                            "step": 1
+                        }
+                    }
+                }
+            ],
+            "LPOP": [
+                {
+                    "begin_search": {
+                        "index": {
+                            "pos": 1
+                        }
+                    },
+                    "find_keys": {
+                        "range": {
+                            "lastkey": 0,
+                            "step": 1,
+                            "limit": 0
+                        }
+                    }
+                }
+            ],
+            "LPOS": [
+                {
+                    "begin_search": {
+                        "index": {
+                            "pos": 1
+                        }
+                    },
+                    "find_keys": {
+                        "range": {
+                            "lastkey": 0,
+                            "step": 1,
+                            "limit": 0
+                        }
+                    }
+                }
+            ],
+            "LPUSH": [
+                {
+                    "begin_search": {
+                        "index": {
+                            "pos": 1
+                        }
+                    },
+                    "find_keys": {
+                        "range": {
+                            "lastkey": 0,
+                            "step": 1,
+                            "limit": 0
+                        }
+                    }
+                }
+            ],
+            "LPUSHX": [
+                {
+                    "begin_search": {
+                        "index": {
+                            "pos": 1
+                        }
+                    },
+                    "find_keys": {
+                        "range": {
+                            "lastkey": 0,
+                            "step": 1,
+                            "limit": 0
+                        }
+                    }
+                }
+            ],
+            "LRANGE": [
+                {
+                    "begin_search": {
+                        "index": {
+                            "pos": 1
+                        }
+                    },
+                    "find_keys": {
+                        "range": {
+                            "lastkey": 0,
+                            "step": 1,
+                            "limit": 0
+                        }
+                    }
+                }
+            ],
+            "LREM": [
+                {
+                    "begin_search": {
+                        "index": {
+                            "pos": 1
+                        }
+                    },
+                    "find_keys": {
+                        "range": {
+                            "lastkey": 0,
+                            "step": 1,
+                            "limit": 0
+                        }
+                    }
+                }
+            ],
+            "LSET": [
+                {
+                    "begin_search": {
+                        "index": {
+                            "pos": 1
+                        }
+                    },
+                    "find_keys": {
+                        "range": {
+                            "lastkey": 0,
+                            "step": 1,
+                            "limit": 0
+                        }
+                    }
+                }
+            ],
+            "LTRIM": [
+                {
+                    "begin_search": {
+                        "index": {
+                            "pos": 1
+                        }
+                    },
+                    "find_keys": {
+                        "range": {
+                            "lastkey": 0,
+                            "step": 1,
+                            "limit": 0
+                        }
+                    }
+                }
+            ],
+            "RPOP": [
+                {
+                    "begin_search": {
+                        "index": {
+                            "pos": 1
+                        }
+                    },
+                    "find_keys": {
+                        "range": {
+                            "lastkey": 0,
+                            "step": 1,
+                            "limit": 0
+                        }
+                    }
+                }
+            ],
+            "RPOPLPUSH": [
+                {
+                    "begin_search": {
+                        "index": {
+                            "pos": 1
+                        }
+                    },
+                    "find_keys": {
+                        "range": {
+                            "lastkey": 0,
+                            "step": 1,
+                            "limit": 0
+                        }
+                    }
+                },
+                {
+                    "begin_search": {
+                        "index": {
+                            "pos": 2
+                        }
+                    },
+                    "find_keys": {
+                        "range": {
+                            "lastkey": 0,
+                            "step": 1,
+                            "limit": 0
+                        }
+                    }
+                }
+            ],
+            "RPUSH": [
+                {
+                    "begin_search": {
+                        "index": {
+                            "pos": 1
+                        }
+                    },
+                    "find_keys": {
+                        "range": {
+                            "lastkey": 0,
+                            "step": 1,
+                            "limit": 0
+                        }
+                    }
+                }
+            ],
+            "RPUSHX": [
+                {
+                    "begin_search": {
+                        "index": {
+                            "pos": 1
+                        }
+                    },
+                    "find_keys": {
+                        "range": {
+                            "lastkey": 0,
+                            "step": 1,
+                            "limit": 0
+                        }
+                    }
+                }
+            ]
+        },
+        "sorted_set": {
+            "BZMPOP": [
+                {
+                    "begin_search": {
+                        "index": {
+                            "pos": 2
+                        }
+                    },
+                    "find_keys": {
+                        "keynum": {
+                            "keynumidx": 0,
+                            "firstkey": 1,
+                            "step": 1
+                        }
+                    }
+                }
+            ],
+            "BZPOPMAX": [
+                {
+                    "begin_search": {
+                        "index": {
+                            "pos": 1
+                        }
+                    },
+                    "find_keys": {
+                        "range": {
+                            "lastkey": -2,
+                            "step": 1,
+                            "limit": 0
+                        }
+                    }
+                }
+            ],
+            "BZPOPMIN": [
+                {
+                    "begin_search": {
+                        "index": {
+                            "pos": 1
+                        }
+                    },
+                    "find_keys": {
+                        "range": {
+                            "lastkey": -2,
+                            "step": 1,
+                            "limit": 0
+                        }
+                    }
+                }
+            ],
+            "ZADD": [
+                {
+                    "begin_search": {
+                        "index": {
+                            "pos": 1
+                        }
+                    },
+                    "find_keys": {
+                        "range": {
+                            "lastkey": 0,
+                            "step": 1,
+                            "limit": 0
+                        }
+                    }
+                }
+            ],
+            "ZCARD": [
+                {
+                    "begin_search": {
+                        "index": {
+                            "pos": 1
+                        }
+                    },
+                    "find_keys": {
+                        "range": {
+                            "lastkey": 0,
+                            "step": 1,
+                            "limit": 0
+                        }
+                    }
+                }
+            ],
+            "ZCOUNT": [
+                {
+                    "begin_search": {
+                        "index": {
+                            "pos": 1
+                        }
+                    },
+                    "find_keys": {
+                        "range": {
+                            "lastkey": 0,
+                            "step": 1,
+                            "limit": 0
+                        }
+                    }
+                }
+            ],
+            "ZDIFF": [
+                {
+                    "begin_search": {
+                        "index": {
+                            "pos": 1
+                        }
+                    },
+                    "find_keys": {
+                        "keynum": {
+                            "keynumidx": 0,
+                            "firstkey": 1,
+                            "step": 1
+                        }
+                    }
+                }
+            ],
+            "ZDIFFSTORE": [
+                {
+                    "begin_search": {
+                        "index": {
+                            "pos": 1
+                        }
+                    },
+                    "find_keys": {
+                        "range": {
+                            "lastkey": 0,
+                            "step": 1,
+                            "limit": 0
+                        }
+                    }
+                },
+                {
+                    "begin_search": {
+                        "index": {
+                            "pos": 2
+                        }
+                    },
+                    "find_keys": {
+                        "keynum": {
+                            "keynumidx": 0,
+                            "firstkey": 1,
+                            "step": 1
+                        }
+                    }
+                }
+            ],
+            "ZINCRBY": [
+                {
+                    "begin_search": {
+                        "index": {
+                            "pos": 1
+                        }
+                    },
+                    "find_keys": {
+                        "range": {
+                            "lastkey": 0,
+                            "step": 1,
+                            "limit": 0
+                        }
+                    }
+                }
+            ],
+            "ZINTER": [
+                {
+                    "begin_search": {
+                        "index": {
+                            "pos": 1
+                        }
+                    },
+                    "find_keys": {
+                        "keynum": {
+                            "keynumidx": 0,
+                            "firstkey": 1,
+                            "step": 1
+                        }
+                    }
+                }
+            ],
+            "ZINTERCARD": [
+                {
+                    "begin_search": {
+                        "index": {
+                            "pos": 1
+                        }
+                    },
+                    "find_keys": {
+                        "keynum": {
+                            "keynumidx": 0,
+                            "firstkey": 1,
+                            "step": 1
+                        }
+                    }
+                }
+            ],
+            "ZINTERSTORE": [
+                {
+                    "begin_search": {
+                        "index": {
+                            "pos": 1
+                        }
+                    },
+                    "find_keys": {
+                        "range": {
+                            "lastkey": 0,
+                            "step": 1,
+                            "limit": 0
+                        }
+                    }
+                },
+                {
+                    "begin_search": {
+                        "index": {
+                            "pos": 2
+                        }
+                    },
+                    "find_keys": {
+                        "keynum": {
+                            "keynumidx": 0,
+                            "firstkey": 1,
+                            "step": 1
+                        }
+                    }
+                }
+            ],
+            "ZLEXCOUNT": [
+                {
+                    "begin_search": {
+                        "index": {
+                            "pos": 1
+                        }
+                    },
+                    "find_keys": {
+                        "range": {
+                            "lastkey": 0,
+                            "step": 1,
+                            "limit": 0
+                        }
+                    }
+                }
+            ],
+            "ZMPOP": [
+                {
+                    "begin_search": {
+                        "index": {
+                            "pos": 1
+                        }
+                    },
+                    "find_keys": {
+                        "keynum": {
+                            "keynumidx": 0,
+                            "firstkey": 1,
+                            "step": 1
+                        }
+                    }
+                }
+            ],
+            "ZMSCORE": [
+                {
+                    "begin_search": {
+                        "index": {
+                            "pos": 1
+                        }
+                    },
+                    "find_keys": {
+                        "range": {
+                            "lastkey": 0,
+                            "step": 1,
+                            "limit": 0
+                        }
+                    }
+                }
+            ],
+            "ZPOPMAX": [
+                {
+                    "begin_search": {
+                        "index": {
+                            "pos": 1
+                        }
+                    },
+                    "find_keys": {
+                        "range": {
+                            "lastkey": 0,
+                            "step": 1,
+                            "limit": 0
+                        }
+                    }
+                }
+            ],
+            "ZPOPMIN": [
+                {
+                    "begin_search": {
+                        "index": {
+                            "pos": 1
+                        }
+                    },
+                    "find_keys": {
+                        "range": {
+                            "lastkey": 0,
+                            "step": 1,
+                            "limit": 0
+                        }
+                    }
+                }
+            ],
+            "ZRANDMEMBER": [
+                {
+                    "begin_search": {
+                        "index": {
+                            "pos": 1
+                        }
+                    },
+                    "find_keys": {
+                        "range": {
+                            "lastkey": 0,
+                            "step": 1,
+                            "limit": 0
+                        }
+                    }
+                }
+            ],
+            "ZRANGE": [
+                {
+                    "begin_search": {
+                        "index": {
+                            "pos": 1
+                        }
+                    },
+                    "find_keys": {
+                        "range": {
+                            "lastkey": 0,
+                            "step": 1,
+                            "limit": 0
+                        }
+                    }
+                }
+            ],
+            "ZRANGEBYLEX": [
+                {
+                    "begin_search": {
+                        "index": {
+                            "pos": 1
+                        }
+                    },
+                    "find_keys": {
+                        "range": {
+                            "lastkey": 0,
+                            "step": 1,
+                            "limit": 0
+                        }
+                    }
+                }
+            ],
+            "ZRANGEBYSCORE": [
+                {
+                    "begin_search": {
+                        "index": {
+                            "pos": 1
+                        }
+                    },
+                    "find_keys": {
+                        "range": {
+                            "lastkey": 0,
+                            "step": 1,
+                            "limit": 0
+                        }
+                    }
+                }
+            ],
+            "ZRANGESTORE": [
+                {
+                    "begin_search": {
+                        "index": {
+                            "pos": 1
+                        }
+                    },
+                    "find_keys": {
+                        "range": {
+                            "lastkey": 0,
+                            "step": 1,
+                            "limit": 0
+                        }
+                    }
+                },
+                {
+                    "begin_search": {
+                        "index": {
+                            "pos": 2
+                        }
+                    },
+                    "find_keys": {
+                        "range": {
+                            "lastkey": 0,
+                            "step": 1,
+                            "limit": 0
+                        }
+                    }
+                }
+            ],
+            "ZRANK": [
+                {
+                    "begin_search": {
+                        "index": {
+                            "pos": 1
+                        }
+                    },
+                    "find_keys": {
+                        "range": {
+                            "lastkey": 0,
+                            "step": 1,
+                            "limit": 0
+                        }
+                    }
+                }
+            ],
+            "ZREM": [
+                {
+                    "begin_search": {
+                        "index": {
+                            "pos": 1
+                        }
+                    },
+                    "find_keys": {
+                        "range": {
+                            "lastkey": 0,
+                            "step": 1,
+                            "limit": 0
+                        }
+                    }
+                }
+            ],
+            "ZREMRANGEBYLEX": [
+                {
+                    "begin_search": {
+                        "index": {
+                            "pos": 1
+                        }
+                    },
+                    "find_keys": {
+                        "range": {
+                            "lastkey": 0,
+                            "step": 1,
+                            "limit": 0
+                        }
+                    }
+                }
+            ],
+            "ZREMRANGEBYRANK": [
+                {
+                    "begin_search": {
+                        "index": {
+                            "pos": 1
+                        }
+                    },
+                    "find_keys": {
+                        "range": {
+                            "lastkey": 0,
+                            "step": 1,
+                            "limit": 0
+                        }
+                    }
+                }
+            ],
+            "ZREMRANGEBYSCORE": [
+                {
+                    "begin_search": {
+                        "index": {
+                            "pos": 1
+                        }
+                    },
+                    "find_keys": {
+                        "range": {
+                            "lastkey": 0,
+                            "step": 1,
+                            "limit": 0
+                        }
+                    }
+                }
+            ],
+            "ZREVRANGE": [
+                {
+                    "begin_search": {
+                        "index": {
+                            "pos": 1
+                        }
+                    },
+                    "find_keys": {
+                        "range": {
+                            "lastkey": 0,
+                            "step": 1,
+                            "limit": 0
+                        }
+                    }
+                }
+            ],
+            "ZREVRANGEBYLEX": [
+                {
+                    "begin_search": {
+                        "index": {
+                            "pos": 1
+                        }
+                    },
+                    "find_keys": {
+                        "range": {
+                            "lastkey": 0,
+                            "step": 1,
+                            "limit": 0
+                        }
+                    }
+                }
+            ],
+            "ZREVRANGEBYSCORE": [
+                {
+                    "begin_search": {
+                        "index": {
+                            "pos": 1
+                        }
+                    },
+                    "find_keys": {
+                        "range": {
+                            "lastkey": 0,
+                            "step": 1,
+                            "limit": 0
+                        }
+                    }
+                }
+            ],
+            "ZREVRANK": [
+                {
+                    "begin_search": {
+                        "index": {
+                            "pos": 1
+                        }
+                    },
+                    "find_keys": {
+                        "range": {
+                            "lastkey": 0,
+                            "step": 1,
+                            "limit": 0
+                        }
+                    }
+                }
+            ],
+            "ZSCAN": [
+                {
+                    "begin_search": {
+                        "index": {
+                            "pos": 1
+                        }
+                    },
+                    "find_keys": {
+                        "range": {
+                            "lastkey": 0,
+                            "step": 1,
+                            "limit": 0
+                        }
+                    }
+                }
+            ],
+            "ZSCORE": [
+                {
+                    "begin_search": {
+                        "index": {
+                            "pos": 1
+                        }
+                    },
+                    "find_keys": {
+                        "range": {
+                            "lastkey": 0,
+                            "step": 1,
+                            "limit": 0
+                        }
+                    }
+                }
+            ],
+            "ZUNION": [
+                {
+                    "begin_search": {
+                        "index": {
+                            "pos": 1
+                        }
+                    },
+                    "find_keys": {
+                        "keynum": {
+                            "keynumidx": 0,
+                            "firstkey": 1,
+                            "step": 1
+                        }
+                    }
+                }
+            ],
+            "ZUNIONSTORE": [
+                {
+                    "begin_search": {
+                        "index": {
+                            "pos": 1
+                        }
+                    },
+                    "find_keys": {
+                        "range": {
+                            "lastkey": 0,
+                            "step": 1,
+                            "limit": 0
+                        }
+                    }
+                },
+                {
+                    "begin_search": {
+                        "index": {
+                            "pos": 2
+                        }
+                    },
+                    "find_keys": {
+                        "keynum": {
+                            "keynumidx": 0,
+                            "firstkey": 1,
+                            "step": 1
+                        }
+                    }
+                }
+            ]
+        },
+        "generic": {
+            "COPY": [
+                {
+                    "begin_search": {
+                        "index": {
+                            "pos": 1
+                        }
+                    },
+                    "find_keys": {
+                        "range": {
+                            "lastkey": 0,
+                            "step": 1,
+                            "limit": 0
+                        }
+                    }
+                },
+                {
+                    "begin_search": {
+                        "index": {
+                            "pos": 2
+                        }
+                    },
+                    "find_keys": {
+                        "range": {
+                            "lastkey": 0,
+                            "step": 1,
+                            "limit": 0
+                        }
+                    }
+                }
+            ],
+            "DEL": [
+                {
+                    "begin_search": {
+                        "index": {
+                            "pos": 1
+                        }
+                    },
+                    "find_keys": {
+                        "range": {
+                            "lastkey": -1,
+                            "step": 1,
+                            "limit": 0
+                        }
+                    }
+                }
+            ],
+            "DUMP": [
+                {
+                    "begin_search": {
+                        "index": {
+                            "pos": 1
+                        }
+                    },
+                    "find_keys": {
+                        "range": {
+                            "lastkey": 0,
+                            "step": 1,
+                            "limit": 0
+                        }
+                    }
+                }
+            ],
+            "EXISTS": [
+                {
+                    "begin_search": {
+                        "index": {
+                            "pos": 1
+                        }
+                    },
+                    "find_keys": {
+                        "range": {
+                            "lastkey": -1,
+                            "step": 1,
+                            "limit": 0
+                        }
+                    }
+                }
+            ],
+            "EXPIRE": [
+                {
+                    "begin_search": {
+                        "index": {
+                            "pos": 1
+                        }
+                    },
+                    "find_keys": {
+                        "range": {
+                            "lastkey": 0,
+                            "step": 1,
+                            "limit": 0
+                        }
+                    }
+                }
+            ],
+            "EXPIREAT": [
+                {
+                    "begin_search": {
+                        "index": {
+                            "pos": 1
+                        }
+                    },
+                    "find_keys": {
+                        "range": {
+                            "lastkey": 0,
+                            "step": 1,
+                            "limit": 0
+                        }
+                    }
+                }
+            ],
+            "EXPIRETIME": [
+                {
+                    "begin_search": {
+                        "index": {
+                            "pos": 1
+                        }
+                    },
+                    "find_keys": {
+                        "range": {
+                            "lastkey": 0,
+                            "step": 1,
+                            "limit": 0
+                        }
+                    }
+                }
+            ],
+            "KEYS": [],
+            "MOVE": [
+                {
+                    "begin_search": {
+                        "index": {
+                            "pos": 1
+                        }
+                    },
+                    "find_keys": {
+                        "range": {
+                            "lastkey": 0,
+                            "step": 1,
+                            "limit": 0
+                        }
+                    }
+                }
+            ],
+            "OBJECT-ENCODING": [
+                {
+                    "begin_search": {
+                        "index": {
+                            "pos": 2
+                        }
+                    },
+                    "find_keys": {
+                        "range": {
+                            "lastkey": 0,
+                            "step": 1,
+                            "limit": 0
+                        }
+                    }
+                }
+            ],
+            "OBJECT-FREQ": [
+                {
+                    "begin_search": {
+                        "index": {
+                            "pos": 2
+                        }
+                    },
+                    "find_keys": {
+                        "range": {
+                            "lastkey": 0,
+                            "step": 1,
+                            "limit": 0
+                        }
+                    }
+                }
+            ],
+            "OBJECT-HELP": [],
+            "OBJECT-IDLETIME": [
+                {
+                    "begin_search": {
+                        "index": {
+                            "pos": 2
+                        }
+                    },
+                    "find_keys": {
+                        "range": {
+                            "lastkey": 0,
+                            "step": 1,
+                            "limit": 0
+                        }
+                    }
+                }
+            ],
+            "OBJECT-REFCOUNT": [
+                {
+                    "begin_search": {
+                        "index": {
+                            "pos": 2
+                        }
+                    },
+                    "find_keys": {
+                        "range": {
+                            "lastkey": 0,
+                            "step": 1,
+                            "limit": 0
+                        }
+                    }
+                }
+            ],
+            "OBJECT": [],
+            "PERSIST": [
+                {
+                    "begin_search": {
+                        "index": {
+                            "pos": 1
+                        }
+                    },
+                    "find_keys": {
+                        "range": {
+                            "lastkey": 0,
+                            "step": 1,
+                            "limit": 0
+                        }
+                    }
+                }
+            ],
+            "PEXPIRE": [
+                {
+                    "begin_search": {
+                        "index": {
+                            "pos": 1
+                        }
+                    },
+                    "find_keys": {
+                        "range": {
+                            "lastkey": 0,
+                            "step": 1,
+                            "limit": 0
+                        }
+                    }
+                }
+            ],
+            "PEXPIREAT": [
+                {
+                    "begin_search": {
+                        "index": {
+                            "pos": 1
+                        }
+                    },
+                    "find_keys": {
+                        "range": {
+                            "lastkey": 0,
+                            "step": 1,
+                            "limit": 0
+                        }
+                    }
+                }
+            ],
+            "PEXPIRETIME": [
+                {
+                    "begin_search": {
+                        "index": {
+                            "pos": 1
+                        }
+                    },
+                    "find_keys": {
+                        "range": {
+                            "lastkey": 0,
+                            "step": 1,
+                            "limit": 0
+                        }
+                    }
+                }
+            ],
+            "PTTL": [
+                {
+                    "begin_search": {
+                        "index": {
+                            "pos": 1
+                        }
+                    },
+                    "find_keys": {
+                        "range": {
+                            "lastkey": 0,
+                            "step": 1,
+                            "limit": 0
+                        }
+                    }
+                }
+            ],
+            "RANDOMKEY": [],
+            "RENAME": [
+                {
+                    "begin_search": {
+                        "index": {
+                            "pos": 1
+                        }
+                    },
+                    "find_keys": {
+                        "range": {
+                            "lastkey": 0,
+                            "step": 1,
+                            "limit": 0
+                        }
+                    }
+                },
+                {
+                    "begin_search": {
+                        "index": {
+                            "pos": 2
+                        }
+                    },
+                    "find_keys": {
+                        "range": {
+                            "lastkey": 0,
+                            "step": 1,
+                            "limit": 0
+                        }
+                    }
+                }
+            ],
+            "RENAMENX": [
+                {
+                    "begin_search": {
+                        "index": {
+                            "pos": 1
+                        }
+                    },
+                    "find_keys": {
+                        "range": {
+                            "lastkey": 0,
+                            "step": 1,
+                            "limit": 0
+                        }
+                    }
+                },
+                {
+                    "begin_search": {
+                        "index": {
+                            "pos": 2
+                        }
+                    },
+                    "find_keys": {
+                        "range": {
+                            "lastkey": 0,
+                            "step": 1,
+                            "limit": 0
+                        }
+                    }
+                }
+            ],
+            "RESTORE": [
+                {
+                    "begin_search": {
+                        "index": {
+                            "pos": 1
+                        }
+                    },
+                    "find_keys": {
+                        "range": {
+                            "lastkey": 0,
+                            "step": 1,
+                            "limit": 0
+                        }
+                    }
+                }
+            ],
+            "SCAN": [],
+            "TOUCH": [
+                {
+                    "begin_search": {
+                        "index": {
+                            "pos": 1
+                        }
+                    },
+                    "find_keys": {
+                        "range": {
+                            "lastkey": -1,
+                            "step": 1,
+                            "limit": 0
+                        }
+                    }
+                }
+            ],
+            "TTL": [
+                {
+                    "begin_search": {
+                        "index": {
+                            "pos": 1
+                        }
+                    },
+                    "find_keys": {
+                        "range": {
+                            "lastkey": 0,
+                            "step": 1,
+                            "limit": 0
+                        }
+                    }
+                }
+            ],
+            "TYPE": [
+                {
+                    "begin_search": {
+                        "index": {
+                            "pos": 1
+                        }
+                    },
+                    "find_keys": {
+                        "range": {
+                            "lastkey": 0,
+                            "step": 1,
+                            "limit": 0
+                        }
+                    }
+                }
+            ],
+            "UNLINK": [
+                {
+                    "begin_search": {
+                        "index": {
+                            "pos": 1
+                        }
+                    },
+                    "find_keys": {
+                        "range": {
+                            "lastkey": -1,
+                            "step": 1,
+                            "limit": 0
+                        }
+                    }
+                }
+            ],
+            "WAIT": []
+        },
+        "transactions": {
+            "DISCARD": [],
+            "EXEC": [],
+            "MULTI": [],
+            "UNWATCH": [],
+            "WATCH": [
+                {
+                    "begin_search": {
+                        "index": {
+                            "pos": 1
+                        }
+                    },
+                    "find_keys": {
+                        "range": {
+                            "lastkey": -1,
+                            "step": 1,
+                            "limit": 0
+                        }
+                    }
+                }
+            ]
+        },
+        "scripting": {
+            "EVAL": [
+                {
+                    "begin_search": {
+                        "index": {
+                            "pos": 2
+                        }
+                    },
+                    "find_keys": {
+                        "keynum": {
+                            "keynumidx": 0,
+                            "firstkey": 1,
+                            "step": 1
+                        }
+                    }
+                }
+            ],
+            "EVAL_RO": [
+                {
+                    "begin_search": {
+                        "index": {
+                            "pos": 2
+                        }
+                    },
+                    "find_keys": {
+                        "keynum": {
+                            "keynumidx": 0,
+                            "firstkey": 1,
+                            "step": 1
+                        }
+                    }
+                }
+            ],
+            "EVALSHA": [
+                {
+                    "begin_search": {
+                        "index": {
+                            "pos": 2
+                        }
+                    },
+                    "find_keys": {
+                        "keynum": {
+                            "keynumidx": 0,
+                            "firstkey": 1,
+                            "step": 1
+                        }
+                    }
+                }
+            ],
+            "EVALSHA_RO": [
+                {
+                    "begin_search": {
+                        "index": {
+                            "pos": 2
+                        }
+                    },
+                    "find_keys": {
+                        "keynum": {
+                            "keynumidx": 0,
+                            "firstkey": 1,
+                            "step": 1
+                        }
+                    }
+                }
+            ],
+            "FCALL": [
+                {
+                    "begin_search": {
+                        "index": {
+                            "pos": 2
+                        }
+                    },
+                    "find_keys": {
+                        "keynum": {
+                            "keynumidx": 0,
+                            "firstkey": 1,
+                            "step": 1
+                        }
+                    }
+                }
+            ],
+            "FCALL_RO": [
+                {
+                    "begin_search": {
+                        "index": {
+                            "pos": 2
+                        }
+                    },
+                    "find_keys": {
+                        "keynum": {
+                            "keynumidx": 0,
+                            "firstkey": 1,
+                            "step": 1
+                        }
+                    }
+                }
+            ],
+            "FUNCTION-DELETE": [],
+            "FUNCTION-DUMP": [],
+            "FUNCTION-FLUSH": [],
+            "FUNCTION-HELP": [],
+            "FUNCTION-KILL": [],
+            "FUNCTION-LIST": [],
+            "FUNCTION-LOAD": [],
+            "FUNCTION-RESTORE": [],
+            "FUNCTION-STATS": [],
+            "FUNCTION": [],
+            "SCRIPT-DEBUG": [],
+            "SCRIPT-EXISTS": [],
+            "SCRIPT-FLUSH": [],
+            "SCRIPT-HELP": [],
+            "SCRIPT-KILL": [],
+            "SCRIPT-LOAD": [],
+            "SCRIPT": []
+        },
+        "TairHash": {
+            "EXHSET": [
+                {
+                    "begin_search": {
+                        "index": {
+                            "pos": 1
+                        }
+                    },
+                    "find_keys": {
+                        "range": {
+                            "lastkey": 0,
+                            "step": 1,
+                            "limit": 0
+                        }
+                    }
+                }
+            ]
+        },
+        "TairString": {
+            "EXSET": [
+                {
+                    "begin_search": {
+                        "index": {
+                            "pos": 1
+                        }
+                    },
+                    "find_keys": {
+                        "range": {
+                            "lastkey": 0,
+                            "step": 1,
+                            "limit": 0
+                        }
+                    }
+                }
+            ]
+        },
+        "TairZset": {
+            "EXZADD": [
+                {
+                    "begin_search": {
+                        "index": {
+                            "pos": 1
+                        }
+                    },
+                    "find_keys": {
+                        "range": {
+                            "lastkey": 0,
+                            "step": 1,
+                            "limit": 0
+                        }
+                    }
+                }
+            ]
+        },
+        "geo": {
+            "GEOADD": [
+                {
+                    "begin_search": {
+                        "index": {
+                            "pos": 1
+                        }
+                    },
+                    "find_keys": {
+                        "range": {
+                            "lastkey": 0,
+                            "step": 1,
+                            "limit": 0
+                        }
+                    }
+                }
+            ],
+            "GEODIST": [
+                {
+                    "begin_search": {
+                        "index": {
+                            "pos": 1
+                        }
+                    },
+                    "find_keys": {
+                        "range": {
+                            "lastkey": 0,
+                            "step": 1,
+                            "limit": 0
+                        }
+                    }
+                }
+            ],
+            "GEOHASH": [
+                {
+                    "begin_search": {
+                        "index": {
+                            "pos": 1
+                        }
+                    },
+                    "find_keys": {
+                        "range": {
+                            "lastkey": 0,
+                            "step": 1,
+                            "limit": 0
+                        }
+                    }
+                }
+            ],
+            "GEOPOS": [
+                {
+                    "begin_search": {
+                        "index": {
+                            "pos": 1
+                        }
+                    },
+                    "find_keys": {
+                        "range": {
+                            "lastkey": 0,
+                            "step": 1,
+                            "limit": 0
+                        }
+                    }
+                }
+            ],
+            "GEORADIUS": [
+                {
+                    "begin_search": {
+                        "index": {
+                            "pos": 1
+                        }
+                    },
+                    "find_keys": {
+                        "range": {
+                            "lastkey": 0,
+                            "step": 1,
+                            "limit": 0
+                        }
+                    }
+                },
+                {
+                    "begin_search": {
+                        "keyword": {
+                            "keyword": "STORE",
+                            "startfrom": 6
+                        }
+                    },
+                    "find_keys": {
+                        "range": {
+                            "lastkey": 0,
+                            "step": 1,
+                            "limit": 0
+                        }
+                    }
+                },
+                {
+                    "begin_search": {
+                        "keyword": {
+                            "keyword": "STOREDIST",
+                            "startfrom": 6
+                        }
+                    },
+                    "find_keys": {
+                        "range": {
+                            "lastkey": 0,
+                            "step": 1,
+                            "limit": 0
+                        }
+                    }
+                }
+            ],
+            "GEORADIUS_RO": [
+                {
+                    "begin_search": {
+                        "index": {
+                            "pos": 1
+                        }
+                    },
+                    "find_keys": {
+                        "range": {
+                            "lastkey": 0,
+                            "step": 1,
+                            "limit": 0
+                        }
+                    }
+                }
+            ],
+            "GEORADIUSBYMEMBER": [
+                {
+                    "begin_search": {
+                        "index": {
+                            "pos": 1
+                        }
+                    },
+                    "find_keys": {
+                        "range": {
+                            "lastkey": 0,
+                            "step": 1,
+                            "limit": 0
+                        }
+                    }
+                },
+                {
+                    "begin_search": {
+                        "keyword": {
+                            "keyword": "STORE",
+                            "startfrom": 5
+                        }
+                    },
+                    "find_keys": {
+                        "range": {
+                            "lastkey": 0,
+                            "step": 1,
+                            "limit": 0
+                        }
+                    }
+                },
+                {
+                    "begin_search": {
+                        "keyword": {
+                            "keyword": "STOREDIST",
+                            "startfrom": 5
+                        }
+                    },
+                    "find_keys": {
+                        "range": {
+                            "lastkey": 0,
+                            "step": 1,
+                            "limit": 0
+                        }
+                    }
+                }
+            ],
+            "GEORADIUSBYMEMBER_RO": [
+                {
+                    "begin_search": {
+                        "index": {
+                            "pos": 1
+                        }
+                    },
+                    "find_keys": {
+                        "range": {
+                            "lastkey": 0,
+                            "step": 1,
+                            "limit": 0
+                        }
+                    }
+                }
+            ],
+            "GEOSEARCH": [
+                {
+                    "begin_search": {
+                        "index": {
+                            "pos": 1
+                        }
+                    },
+                    "find_keys": {
+                        "range": {
+                            "lastkey": 0,
+                            "step": 1,
+                            "limit": 0
+                        }
+                    }
+                }
+            ],
+            "GEOSEARCHSTORE": [
+                {
+                    "begin_search": {
+                        "index": {
+                            "pos": 1
+                        }
+                    },
+                    "find_keys": {
+                        "range": {
+                            "lastkey": 0,
+                            "step": 1,
+                            "limit": 0
+                        }
+                    }
+                },
+                {
+                    "begin_search": {
+                        "index": {
+                            "pos": 2
+                        }
+                    },
+                    "find_keys": {
+                        "range": {
+                            "lastkey": 0,
+                            "step": 1,
+                            "limit": 0
+                        }
+                    }
+                }
+            ]
+        },
+        "hash": {
+            "HDEL": [
+                {
+                    "begin_search": {
+                        "index": {
+                            "pos": 1
+                        }
+                    },
+                    "find_keys": {
+                        "range": {
+                            "lastkey": 0,
+                            "step": 1,
+                            "limit": 0
+                        }
+                    }
+                }
+            ],
+            "HEXISTS": [
+                {
+                    "begin_search": {
+                        "index": {
+                            "pos": 1
+                        }
+                    },
+                    "find_keys": {
+                        "range": {
+                            "lastkey": 0,
+                            "step": 1,
+                            "limit": 0
+                        }
+                    }
+                }
+            ],
+            "HGET": [
+                {
+                    "begin_search": {
+                        "index": {
+                            "pos": 1
+                        }
+                    },
+                    "find_keys": {
+                        "range": {
+                            "lastkey": 0,
+                            "step": 1,
+                            "limit": 0
+                        }
+                    }
+                }
+            ],
+            "HGETALL": [
+                {
+                    "begin_search": {
+                        "index": {
+                            "pos": 1
+                        }
+                    },
+                    "find_keys": {
+                        "range": {
+                            "lastkey": 0,
+                            "step": 1,
+                            "limit": 0
+                        }
+                    }
+                }
+            ],
+            "HINCRBY": [
+                {
+                    "begin_search": {
+                        "index": {
+                            "pos": 1
+                        }
+                    },
+                    "find_keys": {
+                        "range": {
+                            "lastkey": 0,
+                            "step": 1,
+                            "limit": 0
+                        }
+                    }
+                }
+            ],
+            "HINCRBYFLOAT": [
+                {
+                    "begin_search": {
+                        "index": {
+                            "pos": 1
+                        }
+                    },
+                    "find_keys": {
+                        "range": {
+                            "lastkey": 0,
+                            "step": 1,
+                            "limit": 0
+                        }
+                    }
+                }
+            ],
+            "HKEYS": [
+                {
+                    "begin_search": {
+                        "index": {
+                            "pos": 1
+                        }
+                    },
+                    "find_keys": {
+                        "range": {
+                            "lastkey": 0,
+                            "step": 1,
+                            "limit": 0
+                        }
+                    }
+                }
+            ],
+            "HLEN": [
+                {
+                    "begin_search": {
+                        "index": {
+                            "pos": 1
+                        }
+                    },
+                    "find_keys": {
+                        "range": {
+                            "lastkey": 0,
+                            "step": 1,
+                            "limit": 0
+                        }
+                    }
+                }
+            ],
+            "HMGET": [
+                {
+                    "begin_search": {
+                        "index": {
+                            "pos": 1
+                        }
+                    },
+                    "find_keys": {
+                        "range": {
+                            "lastkey": 0,
+                            "step": 1,
+                            "limit": 0
+                        }
+                    }
+                }
+            ],
+            "HMSET": [
+                {
+                    "begin_search": {
+                        "index": {
+                            "pos": 1
+                        }
+                    },
+                    "find_keys": {
+                        "range": {
+                            "lastkey": 0,
+                            "step": 1,
+                            "limit": 0
+                        }
+                    }
+                }
+            ],
+            "HRANDFIELD": [
+                {
+                    "begin_search": {
+                        "index": {
+                            "pos": 1
+                        }
+                    },
+                    "find_keys": {
+                        "range": {
+                            "lastkey": 0,
+                            "step": 1,
+                            "limit": 0
+                        }
+                    }
+                }
+            ],
+            "HSCAN": [
+                {
+                    "begin_search": {
+                        "index": {
+                            "pos": 1
+                        }
+                    },
+                    "find_keys": {
+                        "range": {
+                            "lastkey": 0,
+                            "step": 1,
+                            "limit": 0
+                        }
+                    }
+                }
+            ],
+            "HSET": [
+                {
+                    "begin_search": {
+                        "index": {
+                            "pos": 1
+                        }
+                    },
+                    "find_keys": {
+                        "range": {
+                            "lastkey": 0,
+                            "step": 1,
+                            "limit": 0
+                        }
+                    }
+                }
+            ],
+            "HSETNX": [
+                {
+                    "begin_search": {
+                        "index": {
+                            "pos": 1
+                        }
+                    },
+                    "find_keys": {
+                        "range": {
+                            "lastkey": 0,
+                            "step": 1,
+                            "limit": 0
+                        }
+                    }
+                }
+            ],
+            "HSTRLEN": [
+                {
+                    "begin_search": {
+                        "index": {
+                            "pos": 1
+                        }
+                    },
+                    "find_keys": {
+                        "range": {
+                            "lastkey": 0,
+                            "step": 1,
+                            "limit": 0
+                        }
+                    }
+                }
+            ],
+            "HVALS": [
+                {
+                    "begin_search": {
+                        "index": {
+                            "pos": 1
+                        }
+                    },
+                    "find_keys": {
+                        "range": {
+                            "lastkey": 0,
+                            "step": 1,
+                            "limit": 0
+                        }
+                    }
+                }
+            ]
+        },
+        "hyperloglog": {
+            "PFADD": [
+                {
+                    "begin_search": {
+                        "index": {
+                            "pos": 1
+                        }
+                    },
+                    "find_keys": {
+                        "range": {
+                            "lastkey": 0,
+                            "step": 1,
+                            "limit": 0
+                        }
+                    }
+                }
+            ],
+            "PFCOUNT": [
+                {
+                    "begin_search": {
+                        "index": {
+                            "pos": 1
+                        }
+                    },
+                    "find_keys": {
+                        "range": {
+                            "lastkey": -1,
+                            "step": 1,
+                            "limit": 0
+                        }
+                    }
+                }
+            ],
+            "PFDEBUG": [
+                {
+                    "begin_search": {
+                        "index": {
+                            "pos": 2
+                        }
+                    },
+                    "find_keys": {
+                        "range": {
+                            "lastkey": 0,
+                            "step": 1,
+                            "limit": 0
+                        }
+                    }
+                }
+            ],
+            "PFMERGE": [
+                {
+                    "begin_search": {
+                        "index": {
+                            "pos": 1
+                        }
+                    },
+                    "find_keys": {
+                        "range": {
+                            "lastkey": 0,
+                            "step": 1,
+                            "limit": 0
+                        }
+                    }
+                },
+                {
+                    "begin_search": {
+                        "index": {
+                            "pos": 2
+                        }
+                    },
+                    "find_keys": {
+                        "range": {
+                            "lastkey": -1,
+                            "step": 1,
+                            "limit": 0
+                        }
+                    }
+                }
+            ],
+            "PFSELFTEST": []
+        },
+        "pubsub": {
+            "PSUBSCRIBE": [],
+            "PUBLISH": [],
+            "PUBSUB-CHANNELS": [],
+            "PUBSUB-HELP": [],
+            "PUBSUB-NUMPAT": [],
+            "PUBSUB-NUMSUB": [],
+            "PUBSUB-SHARDCHANNELS": [],
+            "PUBSUB-SHARDNUMSUB": [],
+            "PUBSUB": [],
+            "PUNSUBSCRIBE": [],
+            "SPUBLISH": [
+                {
+                    "begin_search": {
+                        "index": {
+                            "pos": 1
+                        }
+                    },
+                    "find_keys": {
+                        "range": {
+                            "lastkey": 0,
+                            "step": 1,
+                            "limit": 0
+                        }
+                    }
+                }
+            ],
+            "SSUBSCRIBE": [
+                {
+                    "begin_search": {
+                        "index": {
+                            "pos": 1
+                        }
+                    },
+                    "find_keys": {
+                        "range": {
+                            "lastkey": -1,
+                            "step": 1,
+                            "limit": 0
+                        }
+                    }
+                }
+            ],
+            "SUBSCRIBE": [],
+            "SUNSUBSCRIBE": [
+                {
+                    "begin_search": {
+                        "index": {
+                            "pos": 1
+                        }
+                    },
+                    "find_keys": {
+                        "range": {
+                            "lastkey": -1,
+                            "step": 1,
+                            "limit": 0
+                        }
+                    }
+                }
+            ],
+            "UNSUBSCRIBE": []
+        },
+        "set": {
+            "SADD": [
+                {
+                    "begin_search": {
+                        "index": {
+                            "pos": 1
+                        }
+                    },
+                    "find_keys": {
+                        "range": {
+                            "lastkey": 0,
+                            "step": 1,
+                            "limit": 0
+                        }
+                    }
+                }
+            ],
+            "SCARD": [
+                {
+                    "begin_search": {
+                        "index": {
+                            "pos": 1
+                        }
+                    },
+                    "find_keys": {
+                        "range": {
+                            "lastkey": 0,
+                            "step": 1,
+                            "limit": 0
+                        }
+                    }
+                }
+            ],
+            "SDIFF": [
+                {
+                    "begin_search": {
+                        "index": {
+                            "pos": 1
+                        }
+                    },
+                    "find_keys": {
+                        "range": {
+                            "lastkey": -1,
+                            "step": 1,
+                            "limit": 0
+                        }
+                    }
+                }
+            ],
+            "SDIFFSTORE": [
+                {
+                    "begin_search": {
+                        "index": {
+                            "pos": 1
+                        }
+                    },
+                    "find_keys": {
+                        "range": {
+                            "lastkey": 0,
+                            "step": 1,
+                            "limit": 0
+                        }
+                    }
+                },
+                {
+                    "begin_search": {
+                        "index": {
+                            "pos": 2
+                        }
+                    },
+                    "find_keys": {
+                        "range": {
+                            "lastkey": -1,
+                            "step": 1,
+                            "limit": 0
+                        }
+                    }
+                }
+            ],
+            "SINTER": [
+                {
+                    "begin_search": {
+                        "index": {
+                            "pos": 1
+                        }
+                    },
+                    "find_keys": {
+                        "range": {
+                            "lastkey": -1,
+                            "step": 1,
+                            "limit": 0
+                        }
+                    }
+                }
+            ],
+            "SINTERCARD": [
+                {
+                    "begin_search": {
+                        "index": {
+                            "pos": 1
+                        }
+                    },
+                    "find_keys": {
+                        "keynum": {
+                            "keynumidx": 0,
+                            "firstkey": 1,
+                            "step": 1
+                        }
+                    }
+                }
+            ],
+            "SINTERSTORE": [
+                {
+                    "begin_search": {
+                        "index": {
+                            "pos": 1
+                        }
+                    },
+                    "find_keys": {
+                        "range": {
+                            "lastkey": 0,
+                            "step": 1,
+                            "limit": 0
+                        }
+                    }
+                },
+                {
+                    "begin_search": {
+                        "index": {
+                            "pos": 2
+                        }
+                    },
+                    "find_keys": {
+                        "range": {
+                            "lastkey": -1,
+                            "step": 1,
+                            "limit": 0
+                        }
+                    }
+                }
+            ],
+            "SISMEMBER": [
+                {
+                    "begin_search": {
+                        "index": {
+                            "pos": 1
+                        }
+                    },
+                    "find_keys": {
+                        "range": {
+                            "lastkey": 0,
+                            "step": 1,
+                            "limit": 0
+                        }
+                    }
+                }
+            ],
+            "SMEMBERS": [
+                {
+                    "begin_search": {
+                        "index": {
+                            "pos": 1
+                        }
+                    },
+                    "find_keys": {
+                        "range": {
+                            "lastkey": 0,
+                            "step": 1,
+                            "limit": 0
+                        }
+                    }
+                }
+            ],
+            "SMISMEMBER": [
+                {
+                    "begin_search": {
+                        "index": {
+                            "pos": 1
+                        }
+                    },
+                    "find_keys": {
+                        "range": {
+                            "lastkey": 0,
+                            "step": 1,
+                            "limit": 0
+                        }
+                    }
+                }
+            ],
+            "SMOVE": [
+                {
+                    "begin_search": {
+                        "index": {
+                            "pos": 1
+                        }
+                    },
+                    "find_keys": {
+                        "range": {
+                            "lastkey": 0,
+                            "step": 1,
+                            "limit": 0
+                        }
+                    }
+                },
+                {
+                    "begin_search": {
+                        "index": {
+                            "pos": 2
+                        }
+                    },
+                    "find_keys": {
+                        "range": {
+                            "lastkey": 0,
+                            "step": 1,
+                            "limit": 0
+                        }
+                    }
+                }
+            ],
+            "SPOP": [
+                {
+                    "begin_search": {
+                        "index": {
+                            "pos": 1
+                        }
+                    },
+                    "find_keys": {
+                        "range": {
+                            "lastkey": 0,
+                            "step": 1,
+                            "limit": 0
+                        }
+                    }
+                }
+            ],
+            "SRANDMEMBER": [
+                {
+                    "begin_search": {
+                        "index": {
+                            "pos": 1
+                        }
+                    },
+                    "find_keys": {
+                        "range": {
+                            "lastkey": 0,
+                            "step": 1,
+                            "limit": 0
+                        }
+                    }
+                }
+            ],
+            "SREM": [
+                {
+                    "begin_search": {
+                        "index": {
+                            "pos": 1
+                        }
+                    },
+                    "find_keys": {
+                        "range": {
+                            "lastkey": 0,
+                            "step": 1,
+                            "limit": 0
+                        }
+                    }
+                }
+            ],
+            "SSCAN": [
+                {
+                    "begin_search": {
+                        "index": {
+                            "pos": 1
+                        }
+                    },
+                    "find_keys": {
+                        "range": {
+                            "lastkey": 0,
+                            "step": 1,
+                            "limit": 0
+                        }
+                    }
+                }
+            ],
+            "SUNION": [
+                {
+                    "begin_search": {
+                        "index": {
+                            "pos": 1
+                        }
+                    },
+                    "find_keys": {
+                        "range": {
+                            "lastkey": -1,
+                            "step": 1,
+                            "limit": 0
+                        }
+                    }
+                }
+            ],
+            "SUNIONSTORE": [
+                {
+                    "begin_search": {
+                        "index": {
+                            "pos": 1
+                        }
+                    },
+                    "find_keys": {
+                        "range": {
+                            "lastkey": 0,
+                            "step": 1,
+                            "limit": 0
+                        }
+                    }
+                },
+                {
+                    "begin_search": {
+                        "index": {
+                            "pos": 2
+                        }
+                    },
+                    "find_keys": {
+                        "range": {
+                            "lastkey": -1,
+                            "step": 1,
+                            "limit": 0
+                        }
+                    }
+                }
+            ]
+        },
+        "sentinel": {
+            "SENTINEL-CKQUORUM": [],
+            "SENTINEL-CONFIG": [],
+            "SENTINEL-DEBUG": [],
+            "SENTINEL-FAILOVER": [],
+            "SENTINEL-FLUSHCONFIG": [],
+            "SENTINEL-GET-MASTER-ADDR-BY-NAME": [],
+            "SENTINEL-HELP": [],
+            "SENTINEL-INFO-CACHE": [],
+            "SENTINEL-IS-MASTER-DOWN-BY-ADDR": [],
+            "SENTINEL-MASTER": [],
+            "SENTINEL-MASTERS": [],
+            "SENTINEL-MONITOR": [],
+            "SENTINEL-MYID": [],
+            "SENTINEL-PENDING-SCRIPTS": [],
+            "SENTINEL-REMOVE": [],
+            "SENTINEL-REPLICAS": [],
+            "SENTINEL-RESET": [],
+            "SENTINEL-SENTINELS": [],
+            "SENTINEL-SET": [],
+            "SENTINEL-SIMULATE-FAILURE": [],
+            "SENTINEL-SLAVES": [],
+            "SENTINEL": []
+        },
+        "stream": {
+            "XACK": [
+                {
+                    "begin_search": {
+                        "index": {
+                            "pos": 1
+                        }
+                    },
+                    "find_keys": {
+                        "range": {
+                            "lastkey": 0,
+                            "step": 1,
+                            "limit": 0
+                        }
+                    }
+                }
+            ],
+            "XADD": [
+                {
+                    "begin_search": {
+                        "index": {
+                            "pos": 1
+                        }
+                    },
+                    "find_keys": {
+                        "range": {
+                            "lastkey": 0,
+                            "step": 1,
+                            "limit": 0
+                        }
+                    }
+                }
+            ],
+            "XAUTOCLAIM": [
+                {
+                    "begin_search": {
+                        "index": {
+                            "pos": 1
+                        }
+                    },
+                    "find_keys": {
+                        "range": {
+                            "lastkey": 0,
+                            "step": 1,
+                            "limit": 0
+                        }
+                    }
+                }
+            ],
+            "XCLAIM": [
+                {
+                    "begin_search": {
+                        "index": {
+                            "pos": 1
+                        }
+                    },
+                    "find_keys": {
+                        "range": {
+                            "lastkey": 0,
+                            "step": 1,
+                            "limit": 0
+                        }
+                    }
+                }
+            ],
+            "XDEL": [
+                {
+                    "begin_search": {
+                        "index": {
+                            "pos": 1
+                        }
+                    },
+                    "find_keys": {
+                        "range": {
+                            "lastkey": 0,
+                            "step": 1,
+                            "limit": 0
+                        }
+                    }
+                }
+            ],
+            "XGROUP-CREATE": [
+                {
+                    "begin_search": {
+                        "index": {
+                            "pos": 2
+                        }
+                    },
+                    "find_keys": {
+                        "range": {
+                            "lastkey": 0,
+                            "step": 1,
+                            "limit": 0
+                        }
+                    }
+                }
+            ],
+            "XGROUP-CREATECONSUMER": [
+                {
+                    "begin_search": {
+                        "index": {
+                            "pos": 2
+                        }
+                    },
+                    "find_keys": {
+                        "range": {
+                            "lastkey": 0,
+                            "step": 1,
+                            "limit": 0
+                        }
+                    }
+                }
+            ],
+            "XGROUP-DELCONSUMER": [
+                {
+                    "begin_search": {
+                        "index": {
+                            "pos": 2
+                        }
+                    },
+                    "find_keys": {
+                        "range": {
+                            "lastkey": 0,
+                            "step": 1,
+                            "limit": 0
+                        }
+                    }
+                }
+            ],
+            "XGROUP-DESTROY": [
+                {
+                    "begin_search": {
+                        "index": {
+                            "pos": 2
+                        }
+                    },
+                    "find_keys": {
+                        "range": {
+                            "lastkey": 0,
+                            "step": 1,
+                            "limit": 0
+                        }
+                    }
+                }
+            ],
+            "XGROUP-HELP": [],
+            "XGROUP-SETID": [
+                {
+                    "begin_search": {
+                        "index": {
+                            "pos": 2
+                        }
+                    },
+                    "find_keys": {
+                        "range": {
+                            "lastkey": 0,
+                            "step": 1,
+                            "limit": 0
+                        }
+                    }
+                }
+            ],
+            "XGROUP": [],
+            "XINFO-CONSUMERS": [
+                {
+                    "begin_search": {
+                        "index": {
+                            "pos": 2
+                        }
+                    },
+                    "find_keys": {
+                        "range": {
+                            "lastkey": 0,
+                            "step": 1,
+                            "limit": 0
+                        }
+                    }
+                }
+            ],
+            "XINFO-GROUPS": [
+                {
+                    "begin_search": {
+                        "index": {
+                            "pos": 2
+                        }
+                    },
+                    "find_keys": {
+                        "range": {
+                            "lastkey": 0,
+                            "step": 1,
+                            "limit": 0
+                        }
+                    }
+                }
+            ],
+            "XINFO-HELP": [],
+            "XINFO-STREAM": [
+                {
+                    "begin_search": {
+                        "index": {
+                            "pos": 2
+                        }
+                    },
+                    "find_keys": {
+                        "range": {
+                            "lastkey": 0,
+                            "step": 1,
+                            "limit": 0
+                        }
+                    }
+                }
+            ],
+            "XINFO": [],
+            "XLEN": [
+                {
+                    "begin_search": {
+                        "index": {
+                            "pos": 1
+                        }
+                    },
+                    "find_keys": {
+                        "range": {
+                            "lastkey": 0,
+                            "step": 1,
+                            "limit": 0
+                        }
+                    }
+                }
+            ],
+            "XPENDING": [
+                {
+                    "begin_search": {
+                        "index": {
+                            "pos": 1
+                        }
+                    },
+                    "find_keys": {
+                        "range": {
+                            "lastkey": 0,
+                            "step": 1,
+                            "limit": 0
+                        }
+                    }
+                }
+            ],
+            "XRANGE": [
+                {
+                    "begin_search": {
+                        "index": {
+                            "pos": 1
+                        }
+                    },
+                    "find_keys": {
+                        "range": {
+                            "lastkey": 0,
+                            "step": 1,
+                            "limit": 0
+                        }
+                    }
+                }
+            ],
+            "XREAD": [
+                {
+                    "begin_search": {
+                        "keyword": {
+                            "keyword": "STREAMS",
+                            "startfrom": 1
+                        }
+                    },
+                    "find_keys": {
+                        "range": {
+                            "lastkey": -1,
+                            "step": 1,
+                            "limit": 2
+                        }
+                    }
+                }
+            ],
+            "XREADGROUP": [
+                {
+                    "begin_search": {
+                        "keyword": {
+                            "keyword": "STREAMS",
+                            "startfrom": 4
+                        }
+                    },
+                    "find_keys": {
+                        "range": {
+                            "lastkey": -1,
+                            "step": 1,
+                            "limit": 2
+                        }
+                    }
+                }
+            ],
+            "XREVRANGE": [
+                {
+                    "begin_search": {
+                        "index": {
+                            "pos": 1
+                        }
+                    },
+                    "find_keys": {
+                        "range": {
+                            "lastkey": 0,
+                            "step": 1,
+                            "limit": 0
+                        }
+                    }
+                }
+            ],
+            "XSETID": [
+                {
+                    "begin_search": {
+                        "index": {
+                            "pos": 1
+                        }
+                    },
+                    "find_keys": {
+                        "range": {
+                            "lastkey": 0,
+                            "step": 1,
+                            "limit": 0
+                        }
+                    }
+                }
+            ],
+            "XTRIM": [
+                {
+                    "begin_search": {
+                        "index": {
+                            "pos": 1
+                        }
+                    },
+                    "find_keys": {
+                        "range": {
+                            "lastkey": 0,
+                            "step": 1,
+                            "limit": 0
+                        }
+                    }
+                }
+            ]
+        }
+    },
+    "container": [
+        "ACL",
+        "CLIENT",
+        "CLUSTER",
+        "COMMAND",
+        "CONFIG",
+        "FUNCTION",
+        "LATENCY",
+        "MEMORY",
+        "MODULE",
+        "OBJECT",
+        "PUBSUB",
+        "SCRIPT",
+        "SENTINEL",
+        "SLOWLOG",
+        "XGROUP",
+        "XINFO"
+    ]
+}

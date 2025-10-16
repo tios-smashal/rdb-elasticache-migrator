@@ -1,0 +1,82 @@
+# ElastiCache Serverless Migration Configuration
+# Source: localhost:6386 (single master node)
+# Target: ElastiCache Serverless
+# Mode: Full sync only (scan_reader)
+
+[scan_reader]
+cluster = false
+address = "localhost:6386"
+username = ""              # Add if source uses ACL
+password = ""              # Add if source requires authentication
+tls = false                # Set to true if source uses TLS
+dbs = [0]                  # Only sync database 0 (cluster mode only supports db 0)
+scan = true                # Enable full sync
+ksn = false                # Disable incremental sync (set to true if needed)
+count = 10                 # Keys per scan iteration (start low, increase if source can handle it)
+
+[redis_writer]
+cluster = true
+address = "saif-serverlesss-eyty4q.serverless.use1.cache.amazonaws.com:6379"
+username = ""              # Add if ElastiCache uses ACL
+password = ""              # REQUIRED: Add your ElastiCache auth token here
+tls = true                 # ElastiCache Serverless requires TLS
+off_reply = false
+
+[filter]
+# Optional: Filter out temporary or cache keys
+# Uncomment and customize as needed:
+# block_key_prefix = ["temp:", "cache:", "session:"]
+# block_db = []
+
+# Optional: Only sync specific keys
+# allow_key_prefix = ["user:", "product:"]
+
+allow_keys = []
+allow_key_prefix = []
+allow_key_suffix = []
+allow_key_regex = []
+block_keys = []
+block_key_prefix = []
+block_key_suffix = []
+block_key_regex = []
+allow_db = []
+block_db = []
+allow_command = []
+block_command = []
+allow_command_group = []
+block_command_group = []
+function = ""
+
+[advanced]
+dir = "data"
+ncpu = 0
+pprof_port = 0
+status_port = 0
+
+# Logging
+log_file = "elasticache-migration.log"
+log_level = "info"
+log_interval = 5
+log_rotation = true
+log_max_size = 512
+log_max_age = 7
+log_max_backups = 3
+log_compress = true
+
+# Restore behavior
+rdb_restore_command_behavior = "panic"  # panic, rewrite or skip
+
+# Performance tuning
+pipeline_count_limit = 512              # Lower for serverless (can adjust based on performance)
+target_redis_max_qps = 50000           # Rate limit to protect ElastiCache Serverless
+
+# Protocol limits
+target_redis_client_max_querybuf_len = 1073741824
+target_redis_proto_max_bulk_len = 512_000_000
+
+# Not needed for your case (ElastiCache Serverless doesn't support PSync)
+aws_psync = ""
+empty_db_before_sync = false
+
+[module]
+target_mbbloom_version = 20603

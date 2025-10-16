@@ -1,0 +1,11 @@
+# system
+.idea/
+__pycache__/
+.DS_Store
+
+# compiled output or test output
+bin/
+dist/
+tmp/
+data/
+*.log

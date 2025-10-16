@@ -1,0 +1,18 @@
+# https://github.com/release-drafter/release-drafter#example
+name-template: 'redis-shake-v$RESOLVED_VERSION'
+tag-template: 'v$RESOLVED_VERSION'
+template: |
+    ## Changes
+    
+    $CHANGES
+version-resolver:
+  major:
+    labels:
+      - 'major'
+  minor:
+    labels:
+      - 'minor'
+  patch:
+    labels:
+      - 'patch'
+  default: patch
